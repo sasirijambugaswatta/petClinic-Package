@@ -1,7 +1,7 @@
 { 
   "variables" : {
-      "region" : "us-west-1",
-      "source_ami" : "ami-099592454c308b00f",
+      "region" : "us-east-1",
+      "source_ami" : "ami-066f2eadb84713ed3",
       "buildId" : "",
       "jenkinsBuildId" : "",
       "artifactId" : ""
@@ -23,7 +23,7 @@
             "Tool" : "Packer",
             "Name" : "{{user `artifactId`}}-{{user `jenkinsBuildId`}}",
             "build_id" : "{{user `artifactId`}}-{{user `jenkinsBuildId`}}",
-            "Author" : "ochoa"
+            "Author" : "sasiri-jambugaswaththa"
         }
       }
   ],
